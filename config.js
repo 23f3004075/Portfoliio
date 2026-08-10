@@ -10,10 +10,10 @@ const CONFIG = {
   name:       "Sourasish Ghosh",
   role:       "AI Engineer · ML Engineer · Data Scientist",
   tagline:    "BS in Data Science · M.Sc. in Atmospheric Science · Building end-to-end ML systems, RAG pipelines, and real-time data infrastructure.",
-  avatar:     "assets/CV_photo.jpg",   // put your photo in assets/photo.jpg
+  avatar:     "assests/CV_photo.jpg",   // put your photo in assets/photo.jpg
   email:      "sourasishghosh02@gmail.com",
   location:   "West Bengal, India",
-  resumeUrl:  "https://drive.google.com/file/d/1-xpSuogYzhW94nNmVwzSqP0YdeOyMf_Q/view?usp=sharing",  // put your resume PDF in assets/resume.pdf
+  resumeUrl:  "assests/Sourasish_Ghosh_cv.pdf",  // put your resume PDF in assets/resume.pdf
 
   /* ── Social Links ─────────────────────────────────────── */
   social: {
@@ -86,6 +86,12 @@ Previously interned at Spaceborn building computer vision and state-estimation p
       tech:        ["RAG", "Qdrant", "OpenCLIP", "Gemini API", "FastAPI"],
       github:      "https://github.com/SourasishGhosh/E-Commerce-Multimodal-RAG-System",   // add your GitHub link
       live:        "",
+    },
+    {
+      name: "Real-Time Financial Fraud Detection and Telemetry Platform",
+      description: "Engineered a full-stack fraud telemetry platform executing transaction classification and explainable SHAP reasoning under 5ms. Achieved 93.85% Recall and 0.9376 PR AUC on a 1.3M-row dataset. Eliminated stateless API vulnerabilities using an in-memory Redis cache with 30-day TTL for sub-1ms rolling customer velocity lookups.",
+      tech: ["FastAPI", "XGBoost", "Redis", "PostgreSQL", "SHAP"],
+      github: "https://github.com/23f3004075/Real-time-Fraud-Detection-System/tree/main",
     },
     {
       name:        "Python-based Finance Backend System",
