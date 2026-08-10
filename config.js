@@ -17,7 +17,7 @@ const CONFIG = {
 
   /* ── Social Links ─────────────────────────────────────── */
   social: {
-    github:   "https://github.com/SourasishGhosh",
+    github:   "https://github.com/23f3004075",
     linkedin: "https://www.linkedin.com/in/sourasish-ghosh-b8ba36281",
     twitter:  "",
     website:  "",
