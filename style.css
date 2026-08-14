@@ -159,8 +159,14 @@ section { margin-bottom: 72px; }
   background: transparent;
   color: var(--text-secondary);
   border: 1px solid var(--border);
+  transition: all 0.2s ease;
 }
-.btn-ghost:hover { background: var(--bg-card); color: var(--text-primary); }
+.btn-ghost:hover {
+  background: var(--accent-dim);              /* Soft background fill */
+  color: var(--accent-hover);                 /* Bright accent text */
+  border-color: var(--accent);                /* Lit border */
+  box-shadow: 0 0 12px rgba(138, 180, 248, 0.3); /* Glowing aura */
+  transform: translateY(-1px); }
 
 /* ─── Card ───────────────────────────────────────────────────── */
 .card {
@@ -168,9 +174,12 @@ section { margin-bottom: 72px; }
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   padding: 20px 24px;
-  transition: border-color .15s, background .15s;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
 }
-.card:hover { border-color: #3a3a3a; background: var(--bg-hover); }
+.card:hover { background: var(--bg-hover);
+  border-color: var(--accent); /* Light up the border line */
+  box-shadow: 0 0 16px rgba(138, 180, 248, 0.25), /* Outer subtle bloom */
+              0 0 2px var(--accent); }
 
 /* ─── About ──────────────────────────────────────────────────── */
 .about-text {
